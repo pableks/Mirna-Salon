@@ -1,3 +1,6 @@
+import '@/app/ui/global.css';
+import Background from '@/components/background';
+
 export default function RootLayout({
   children,
 }: {

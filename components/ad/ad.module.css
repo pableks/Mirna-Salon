@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    z-index: 999;
+    transition: opacity 0.7s ease; /* Transition property */
+    opacity: 1; /* Initially visible */
+  }
+  
+  .popup__area {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    max-width: 80%;
+    border-radius: 8px;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Transition property */
+    transform: translateY(0); /* Initially visible */
+    opacity: 1; /* Initially visible */
+  }
+  
+  .popup__area.hidden {
+    transform: translateY(-50px); /* Move up when hidden */
+    opacity: 0; /* Fade out when hidden */
+  }
+  
+  /* Other styles... */
+  
