@@ -114,7 +114,7 @@ export default function Page() {
           transition={{ duration: 1 }}
         >
          <div className="flex justify-center">
-              <Image src="/mirnalogo.svg" alt="Mirna Salon Logo" width={200} height={200} />
+              <img src="/mirnalogo.svg" alt="Mirna Salon Logo" width={200} height={200} />
             </div>
         </motion.div>
         <motion.h1
@@ -213,7 +213,7 @@ Descubre en Mirna Salón una experiencia completa de belleza y bienestar: desde 
     
     <div className="flex flex-col pt-8 pb-16 items-center justify-center space-y-4 md:flex-row md:space-y-0 md:space-x-4">
       <div className="flex items-center space-x-2">
-      <Image className="lg:pr-8" src="/barberlogo.svg" alt="Mirna Salon Logo" width={250} height={250} />
+      <img className="lg:pr-8" src="/barberlogo.svg" alt="Mirna Salon Logo" width={250} height={250} />
       </div>
       <p className="max-w-[600px] text-center text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400 md:text-left md:self-center">
       En nuestra Barbería, sumérgete en una experiencia de cuidado masculino excepcional. Desde cortes de vanguardia hasta un afeitado preciso, ofrecemos servicios de barbería de alta calidad. Con barberos expertos y atención personalizada, disfruta de un ambiente acogedor donde la tradición se une a la modernidad. Descubre en nuestra Barbería el arte de la auténtica masculinidad y el cuidado experto para tu estilo único.
@@ -224,7 +224,7 @@ Descubre en Mirna Salón una experiencia completa de belleza y bienestar: desde 
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Nuestra experiencia es tu seguridad</h2>
                 <div className="p-0 container flex justify-center items-center">
 
-                <Image className="lg:pr-8" src="/image-cut.jpg" alt="Mirna Salon Logo" width={800} height={800} />
+                <img className="lg:pr-8" src="/image-cut.jpg" alt="Mirna Salon Logo" width={800} height={800} />
                 </div>
                 <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
                   Años de experiencia avalan el trabajo que realizamos en nuestro salón, puedes contar con nosotros para encontrar el estilo que está en tu mente y tu corazón.
